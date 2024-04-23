@@ -1,0 +1,49 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for header */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+/* Styles for student details */
+.stdDetail {
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.stdDetail > div {
+    margin-bottom: 10px;
+}
+
+.stdDetail .stdname,
+.stdDetail .rollno,
+.stdDetail .Batch,
+.stdDetail .section {
+    font-size: 18px;
+}
+
+.stdDetail .stdname {
+    color: #333;
+    font-weight: bold;
+}
+
+.stdDetail .rollno,
+.stdDetail .Batch,
+.stdDetail .section {
+    color: #666;
+}
