@@ -138,20 +138,21 @@ sec = 59
         let percentage = (score / html.length) * 100;
     
         // Define the function before assigning it to the onclick event
-        let randerToResult = () => {
-            location.href = '../../html/result.html';
-        };
+        // let randerToResult = () => {
+        //     location.href = '../../html/result.html';
+        // };
     
-        let Button1 = document.getElementById("button1");
-        Button1.style.display = "block";
-        Button1.onclick = randerToResult;
-        //  swal({
-        //     title: "Good job!",
-        //     text: `The Quiz is end
-        //            your Score is ${score} 
-        //           and percentage is ${percentage}`,
-        //     icon: "success",
-        // }).then((result) => {
+        // let Button1 = document.getElementById("button1");
+        // Button1.style.display = "block";
+        // Button1.onclick = randerToResult;
+         swal({
+            title: "Good job!",
+            text: `The Quiz is end
+                   your Score is ${score} 
+                  and percentage is ${percentage}`,
+            icon: "success",
+        })
+        // .then((result) => {
         //     if (result.isConfirmed) {
         //         window.location.href = "./html/result.html";
         //     }
